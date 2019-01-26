@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  height: 100%;
+}
+.header img{
+  padding: 50px
+}
+i,p {
+  color: white;
+}
+.social{
+  position: absolute;
+  bottom: 25px;
+  margin-left: 45%;
+}
+.social p{
+  color: #c9c9c9;
+  font-size: 14px
+}
+i{
+  padding-right: 15px;
+  font-size: 22px;
+  margin-top: 26px;
+  margin-left: 10px
+}
+i:hover {
+  color: #bfbfbf
+}
+@media only screen and (max-width: 800px) {
+  .social{
+    position: relative;
+    bottom: 40px !important;
+    margin-left: 35%;
+  }
+}
